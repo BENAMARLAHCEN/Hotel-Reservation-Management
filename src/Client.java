@@ -10,4 +10,12 @@ public class Client {
         this.email = email;
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        return
+                "CIN='" + CIN + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' ;
+    }
 }

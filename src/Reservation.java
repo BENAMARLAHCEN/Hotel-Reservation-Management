@@ -19,4 +19,6 @@ public class Reservation {
         this.room.setAvailable(true);
     }
 
+
+
 }
